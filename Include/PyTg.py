@@ -62,4 +62,16 @@ class Tg:
             headers=self.headers,
             json=payload,
         )
+
+        return res.json()
+
+    def getUpdate(self, offset):
+        payload = {"offset": offset, "limit": None, "timeout": None}
+
+        res = requests.post(
+            f"{self.url}getUpdates",
+            headers=self.headers,
+            json=payload,
+        )
+
         return res.json()

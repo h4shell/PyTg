@@ -8,7 +8,10 @@ if __name__ == "__main__":
     }
     App = Tg(TOKEN)
 
-    chat_id = input("Inserisci la chat Telegram (es: @nome_canale): ")
-    txt = input("Inserisci il testo del messaggio: ")
-    res = App.sendMessage(chat_id=chat_id, message=txt, inlinekeyboard=inlinekeyboard)
-    print(res)
+    # chat_id = input("Inserisci la chat Telegram (es: @nome_canale): ")
+    # txt = input("Inserisci il testo del messaggio: ")
+    # res = App.sendMessage(chat_id=chat_id, message=txt, inlinekeyboard=inlinekeyboard)
+    # print(res)
+
+    # res = App.getUpdate(-1)
+    # print(res)
