@@ -1,0 +1,7 @@
+/creds.*
+/lib/*
+/Scripts
+.vscode
+/__pycache__/
+/include/__pycache__/
+/pyvenv*
